@@ -1,9 +1,53 @@
 <template>
+	<div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+		<lightning-layout multiple-rows=true class="slds-theme_default slds-p-around_small">
+			<lightning-layout-item size="12" padding="around-small">
 
-	<lightning-card title="Health POC Bar Chart" icon-name="utility:chart">
-		<template if:true={chartConfiguration}>
-			<c-chart chart-config={chartConfiguration}></c-chart>
-		</template>
-	</lightning-card>
-
+			</lightning-layout-item>
+			<lightning-layout-item size="6" padding="around-small">
+				<lightning-card title="Facilities by Encounter Volume (Sample 1)" icon-name="utility:chart">
+					<div onkeyup={handleKeyUp} class="slds-m-around_small">
+						<lightning-input name="enter-search" label="" type="search">
+						</lightning-input>
+					</div>
+					<template if:true={chartConfiguration}>
+						<c-chart chart-config={chartConfiguration}></c-chart>
+					</template>
+				</lightning-card>
+			</lightning-layout-item>
+			<lightning-layout-item size="6" padding="around-small">
+				<lightning-card title="Facilities by Encounter Volume (Sample 2)" icon-name="utility:chart">
+					<div onkeyup={handleKeyUp} class="slds-m-around_small">
+						<lightning-input name="enter-search" label="" type="search">
+						</lightning-input>
+					</div>
+					<template if:true={chartConfiguration1}>
+						<c-chart chart-config={chartConfiguration1}></c-chart>
+					</template>
+				</lightning-card>
+			</lightning-layout-item>
+			<lightning-layout-item size="6" padding="around-small">
+				<lightning-card title="Facilities by Encounter Volume (Sample 3)" icon-name="utility:chart">
+					<div onkeyup={handleKeyUp} class="slds-m-around_small">
+						<lightning-input name="enter-search" label="" type="search">
+						</lightning-input>
+					</div>
+					<template if:true={chartConfiguration2}>
+						<c-chart chart-config={chartConfiguration2}></c-chart>
+					</template>
+				</lightning-card>
+			</lightning-layout-item>
+			<lightning-layout-item size="6" padding="around-small">
+				<lightning-card title="Facilities by Encounter Volume (Sample 4)" icon-name="utility:chart">
+					<div onkeyup={handleKeyUp} class="slds-m-around_small">
+						<lightning-input name="enter-search" label="" type="search">
+						</lightning-input>
+					</div>
+					<template if:true={chartConfiguration3}>
+						<c-chart chart-config={chartConfiguration3}></c-chart>
+					</template>
+				</lightning-card>
+			</lightning-layout-item>
+		</lightning-layout>
+	</div>
 </template>

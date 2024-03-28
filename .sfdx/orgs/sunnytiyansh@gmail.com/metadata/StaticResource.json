@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005IU00000B7c0oYAB",
+      "createdByName": "Vikram Espk",
+      "createdDate": "2024-03-27T06:39:18.000Z",
+      "fileName": "staticresources/leaflet.resource",
+      "fullName": "leaflet",
+      "id": "081IU000000o1srYAA",
+      "lastModifiedById": "005IU00000B7c0oYAB",
+      "lastModifiedByName": "Vikram Espk",
+      "lastModifiedDate": "2024-03-27T06:39:18.000Z",
+      "manageableState": "unmanaged",
+      "type": "StaticResource"
+    },
+    {
+      "createdById": "005IU00000B7c0oYAB",
+      "createdByName": "Vikram Espk",
+      "createdDate": "2024-03-26T08:44:53.000Z",
+      "fileName": "staticresources/ChartJs.resource",
+      "fullName": "ChartJs",
+      "id": "081IU000000o1sSYAQ",
+      "lastModifiedById": "005IU00000B7c0oYAB",
+      "lastModifiedByName": "Vikram Espk",
+      "lastModifiedDate": "2024-03-26T09:13:45.000Z",
+      "manageableState": "unmanaged",
+      "type": "StaticResource"
+    }
+  ]
+}
